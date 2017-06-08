@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <link rel="stylesheet" href="../css/public/bootstrap.min.css" />
+	    <link rel="stylesheet" href="../css/register.css" />
+	    <script type="text/javascript" src="../js/public/jquery-3.2.1.min.js" ></script>
+	    <script type="text/javascript" src="../js/public/bootstrap.min.js" ></script>
+	    <script type="text/javascript" src="../js/register.js" ></script>
+		<title>一九注册页</title>
+	</head>
+	<body>
+		<div class="register-content">
+			<div class="register-head">
+			</div>
+			<div class="register-input">
+				<div>
+					<input class="form-control email" type="text" id="email" placeholder="邮箱"/>
+				</div>
+				<div>
+					<input class="form-control password" type="text" id="password" placeholder=" 密码"/>
+				</div>
+				<div>
+					<input class="form-control again-password" type="text" id="againPassword" placeholder="再次输入密码"/>
+				</div>
+				<div>
+					<input class="form-control code" type="text" id="code" placeholder="验证码"/>
+				</div>
+				<div>
+					 <span  class="checkbox"><input type="checkbox" />同意一九注册协议</span>
+				</div>
+				<div>
+					<button class=" btn btn-default register">注册</button>
+				</div>
+				<div>
+					<button class="btn btn-default btn-code"  onclick="sendCode()">发送验证码</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

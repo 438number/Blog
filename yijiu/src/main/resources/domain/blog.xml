@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yijiu.dao.BlogDao">
+	<resultMap type="Blog" id="BlogResult">
+		<result property="id" column="id"/>
+		<result property="content" column="content"/>
+		<result property="createTime" column="createTime"/>
+		<result property="browseNumber" column="browseNumber"/>
+		<result property="userId" column="userId"/>
+		<result property="type" column="type"/>
+		<result property="label" column="label"/>
+		<result property="favorNumber" column="favorNumber"/>
+		<result property="title" column="title"/>
+	</resultMap>
+	<insert id="addBlog" parameterType="BlogResult">
+	    insert into  article(id,content,createTime, browseNumber,userId,type,label,favorNumber,title)
+	    values (#{id},#{content},#{createTime},#{browseNumber},#{userId},#{type},#{label},#{favorNumber},#{title})
+	</insert>
+</mapper>

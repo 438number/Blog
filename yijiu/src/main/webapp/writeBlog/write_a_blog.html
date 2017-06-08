@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <link rel="stylesheet" href="../css/write_blog_1.css" />
+    	<script src="../js/public/jquery1.7.2.min.js"></script>
+    	<script type="text/javascript" src="../js/write_blog/write_blog.js" ></script>
+		<title>写一个博客</title>
+	</head>
+	<body>
+		<div class="navigation">
+			<a href="../index.html"><span>一九</span></a>
+			<div class="navigation-article">
+				<span id="navigation-article-type">类型</span>
+                <span id="navigation-article-label">标签</span>
+                <div id="article-al">
+               </div>
+               <button id="blog_release"  onclick="addblog()">发布</button>
+			</div>
+			<div class="article-type">
+				<select>
+					    <option id="1000">选择文章类型</option>
+						<option id="1001">深入解析</option>
+						<option id="1002">Web前端</option>
+						<option id="1003">编程语言</option>
+						<option id="1004">框架使用</option>
+						<option id="1005">IDE攻略</option>
+						<option id="1006">数据库</option>
+						<option id="1007">操作系统</option>
+						<option id="1008">综合</option>
+						<option id="1009">大数据</option>
+						<option id="10010">数据挖掘</option>
+				</select>
+			</div>
+		</div>
+		<div class="article-title" >
+			<input type="text" name="article_title" id="article_title"  autocomplete="off"  placeholder="点击输入你要表达的主题 ♫" />
+		</div>
+		<div class="article-label">
+			<input type="text" name="article_label_add" id="article_label_add"  class="stext" autocomplete="off"  maxlength="10" placeholder="添加文章标签" />
+			<button onclick="add_lable()"><span>+</span></button>
+			<script type="text/javascript" src="../js/write_blog/write_blog.js" ></script>
+		</div>
+		<div >
+			<span id="lable-caveat"></span>
+		</div>
+		<div class="editor">
+		<link rel="stylesheet" type="text/css" href="../public/simditor-2.3.6/styles/simditor.css"/>
+		<script type="text/javascript" src="../public/simditor-2.3.6/scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="../public/simditor-2.3.6/scripts/module.min.js"></script>
+		<script type="text/javascript" src="../public/simditor-2.3.6/scripts/hotkeys.js"></script>
+		<script type="text/javascript" src="../public/simditor-2.3.6/scripts/uploader.js"></script>
+		<script type="text/javascript" src="../public/simditor-2.3.6/scripts/simditor.js"></script>
+		<textarea id="editor" autofocus></textarea>
+		<script type="text/javascript" src="../js/public/editor1.js"></script>
+		</div>
+	</body>
+</html>

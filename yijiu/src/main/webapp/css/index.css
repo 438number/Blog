@@ -1,0 +1,124 @@
+/*设置body大小*/
+body {
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 70px;
+}
+/*设置登录按钮位置*/
+.btn_login {
+	position: absolute;
+	top: 10px;
+	left: 1200px;
+}
+/*设置登录按钮边框以及字体颜色*/
+.btn_login button{
+	border: none;
+	background:white;color: #337AB7;
+}
+.btn_login span ,.sousuo{
+	font-family: "微软雅黑";
+	font-size: 13px;
+}
+.modal-lable span{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #8B8378;
+}
+ul {
+	position: absolute;
+	top: 0px;
+	left: 200px;
+}
+.form-control{
+	position: absolute;
+	top: 8px;
+	left: 800px;
+	width: 300px;
+	height: 35px;
+}
+.sousuo{
+	position: absolute;
+	top: 9px;
+	left: 1100px;
+	height: 35px;
+	width: 50px;
+	border: 0px;
+	background:white;color: #337AB7;
+}
+/**
+ *模态框弹出信息位置大小设置 
+ */
+.modal-content,.modal-dialog{
+	 position: relative;
+	 top: 20px;
+	 width: 600px;
+	 height: 600px;
+}
+/**
+ * 模态框头大小位置信息
+ */
+.modal-header{
+	position: relative;
+	width: 100%;
+	height: 170px;
+}
+.email,.password{
+	position: relative;
+	top: 40px;
+	left: 70px;
+	width: 50px;
+	height: 50px;
+}
+.email-input{
+	position: relative;
+	top: -10px;
+	left: 122px;
+	height: 50px;
+	width: 410px;
+}
+.password-input{
+	position: relative;
+	top: -10px;
+	left: 122px;
+	height: 50px;
+	width: 321px;
+}
+#landing{
+		position: relative;
+		top: -60px;
+		left: 440px;
+		height:50px;
+		width: 90px;
+}
+.modal-input{
+	position: relative;
+	width: 100%;
+	height: 250px;
+}
+.forget-password{
+	position: relative;
+	top: -40px;
+	left: 69px;
+	width: 70px;
+}
+.new-user{
+	position: relative;
+	top: -60px;
+	left: 460px;
+	width: 70px;
+}
+.modal-third-party{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 120px;
+}
+.modal-lable{
+	position: relative;
+	top: -50px;
+	left: 140px;
+	width: 300px;
+}
+

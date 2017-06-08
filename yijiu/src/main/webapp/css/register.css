@@ -1,0 +1,77 @@
+body{
+	background-color: #000000;
+}
+.register-content{
+	position: relative;
+	background-color:white;
+	top: 100px;
+	left: 520px;
+	width: 500px;
+	height: 500px;
+}
+/*头部*/
+.register-head{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 120px;
+	background-color:#AEEEEE;
+}
+/*输入框*/
+.register-input{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 300px;
+}
+.email{
+	position: relative;
+	top:30px;
+	height: 50px;
+	width: 350px;
+	left: 50px;
+}
+.password{
+	position: relative;
+    height: 50px;
+	top:40px;
+	width: 400px;
+	left: 50px;
+}
+.again-password{
+	position: relative;
+    height: 50px;
+	top:50px;
+	width: 400px;
+	left: 50px;
+}
+.code{
+	position: relative;
+    height: 50px;
+	top:60px;
+	width: 400px;
+	left: 50px;
+}
+.checkbox{
+	position: relative;
+    height: 50px;
+	top:60px;
+	width: 300px;
+	left: 72px;
+}
+.register{
+	position: relative;
+	top: 30px;
+	left: 50px;
+	width: 400px;
+	height: 50px;
+	background-color: #5cb85c;
+}
+.btn-code{
+	position: relative;
+	top:-290px;
+	height: 50px;
+	width: 100px;
+	left: 350px;
+}
+
